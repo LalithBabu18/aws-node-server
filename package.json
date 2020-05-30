@@ -1,0 +1,36 @@
+{
+  "name": "aws-server-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "server": "nodemon server",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LalithBabu18/aws-node-server"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "concurrently": "^3.6.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.8.3",
+    "mongoose-unique-validator": "^2.0.3",
+    "url": "^0.11.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0",
+    "express-bearer-token": "^2.4.0",
+    "helmet": "^3.21.2",
+    "method-override": "^3.0.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
